@@ -8,6 +8,7 @@ class ScannerClass {
         String name = scan.nextLine();
 
         System.out.println("Hello! "+name);
+        scan.close();
     }
 }
 
